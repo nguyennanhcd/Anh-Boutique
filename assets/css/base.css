@@ -1,0 +1,37 @@
+:root
+{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color:#333;
+}
+
+*
+{
+    box-sizing: border-box;
+}
+
+html
+{
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.grid
+{
+    width: 1440px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__fullwidth
+{
+    width: 100px;
+}
+
+.grid__row
+{
+    display: flex;
+    flex-wrap: wrap;
+}
